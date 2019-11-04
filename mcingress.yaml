@@ -1,0 +1,12 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: shipping-svc-ingress
+  annotations:
+    kubernetes.io/ingress.global-static-ip-name: shipping-svc-lb
+    kubernetes.io/ingress.class: gce-multi-cluster
+spec:
+  backend:
+    serviceName: mci-endpoint  # kubernetes NodePort service name
+    servicePort: 80
+

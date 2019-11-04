@@ -1,0 +1,45 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURDekNDQWZPZ0F3SUJBZ0lRVDI4ZlBnMkNzSUJIZ0VnUXlWWDBqVEFOQmdrcWhraUc5dzBCQVFzRkFEQXYKTVMwd0t3WURWUVFERXlSaVpXTTBPR1UyTXkwMVpqZG1MVFJrTWpZdFlXRXdOaTFoWVdReVl6TmhOelE0Tm1ZdwpIaGNOTVRrd016STNNVGN5T1RFd1doY05NalF3TXpJMU1UZ3lPVEV3V2pBdk1TMHdLd1lEVlFRREV5UmlaV00wCk9HVTJNeTAxWmpkbUxUUmtNall0WVdFd05pMWhZV1F5WXpOaE56UTRObVl3Z2dFaU1BMEdDU3FHU0liM0RRRUIKQVFVQUE0SUJEd0F3Z2dFS0FvSUJBUURadHRRYkVSTGU3WXhiTVVWTEl0SjZrNGJDbGRJSGVRdERYWGJZbFlPKwpyVzNjMVU4Y3Qzb2MwUVJwdDlpcnJkbEtMd3FkN3VOVmFYdU4yRVRid3ExU3N2V1E2TnNrZkhnNlU1eWt5YVJGCnBLemQ4YjFNL0xkZ3ZZV1FRazVZYlZXUVFsY0ZPZUx3UlBTbWxyd2IrY1M1Y3pvaWdZc0JDRlJuSWl6TndwQ2YKRjNmVHBLZ05xU295aTllLzJTSVlmMTNlM1FyUVFxMnpCZE9EakdETGY2bmE4UVh2RUF2UTl5NkF0bEZkV04zVgppTGRDRFJQNVNUWFQ0TGZqdllQTkVCSW9ZNTdIaGNwR29KYUFKejAyUGNmOEErdU4wckcwK1Vsc0QxM2lDY0FiCjhlc0FqMnBRUVo1T1RqdFNBeGlKdGxyVmxvZktiVlR4VEVjSlBWWHhEeFpiQWdNQkFBR2pJekFoTUE0R0ExVWQKRHdFQi93UUVBd0lDQkRBUEJnTlZIUk1CQWY4RUJUQURBUUgvTUEwR0NTcUdTSWIzRFFFQkN3VUFBNElCQVFBUwpOemltSUY0MDYrNWZLVG9DMUtHNXc1Z2VpdCtJalBldEZwdWJWeTlsRnl5RzZBeCtOUW1rNCtiRWR5MVREYktUCkRubjl6Vkp3aFBsREFRTDZIYllFVHkxWXJIRG0vUGhqSE1FWU41MmphQkFaaWtQZkR4b2luZUpmV2VoUDlkSHIKSFBXcTFUWVMwOStITlU5K1ZSK0IvZ2hTMytmdlNwRm50S1ppRXFBWldFQ2UzcDhvOCtmTlVJR0habGFUWjJuawp1NlpDMnc0blhJUHpkdWhWcmo4Z0g5RXBTdzJEYXhsMlBJMCtMc2d3aVVaSjB0Nzl5djVIUlZkd2NZWGxIS0diCjB5U0JjTWU2VXpraTZ3WVE5L0JnOHlzK09TMXdjK1VjakNPc3hCSW5KVTZpU3RIcUplbVJxKzRlSDRWQy9memIKd0JqWTlEMW5XNE0rR0VYNjl5VG8KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
+    server: https://35.202.204.27
+  name: gke_np-supplychain-srcoptimization_us-central1_shipping-service-nginx-central
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURDekNDQWZPZ0F3SUJBZ0lRZjArRzFoamJjMnJPWjdYbTRXNEpKVEFOQmdrcWhraUc5dzBCQVFzRkFEQXYKTVMwd0t3WURWUVFERXlSbE1XRmpNek01T0Mxa1pEUTJMVFF6WVRndFlXVmhNeTAwTm1KaVlqWXhZalk1TjJJdwpIaGNOTVRrd016STNNVGMwTURVMldoY05NalF3TXpJMU1UZzBNRFUyV2pBdk1TMHdLd1lEVlFRREV5UmxNV0ZqCk16TTVPQzFrWkRRMkxUUXpZVGd0WVdWaE15MDBObUppWWpZeFlqWTVOMkl3Z2dFaU1BMEdDU3FHU0liM0RRRUIKQVFVQUE0SUJEd0F3Z2dFS0FvSUJBUUM0OXpHcU44bUVuNGcwQ2RDTHc1dkh3dC9pTlhFZXNodVVtNmNvYWN1dwp6Z1Q2NExRTWtDL3BTV1JNY0cySnUzTWpQdGVORGp2WVl1YnlqV2tJSHlXZWQybzA1by9JbndhV1hIWkNXcitUCk4zbHhRZE1sdWd6cm1HanpLbnlvNWVRMzRuNHJvWkl5ZHZXd0RyWUt1eFE4SWVQcW13a3VOb01TMmJBMTJsODkKTDY1RnlRQWxEdVYxL3N4ekR0dmRpNzN4V0dhSEhQYnpDS29IS09QSVpFWlBEamJ0cG9IWVRkZytNUDVMR3lzRgoybnBGU2JFd2pvNm0rbXBTeXE1dUxIVTVXK0V3TTJkWkhBT0o0QUVmb3JsQVJIZnFkQXA5dGIzSlRkU1VxeERXCkxwY3E2cjlLaWREc05EM0pKWW1xdDBaL29zVDVZYStRY2VVRUdjdlRYME5WQWdNQkFBR2pJekFoTUE0R0ExVWQKRHdFQi93UUVBd0lDQkRBUEJnTlZIUk1CQWY4RUJUQURBUUgvTUEwR0NTcUdTSWIzRFFFQkN3VUFBNElCQVFDeQo4RUlLOTRMUDllN0w4NWFYOHN6UVVRY0d6ZC9vMURKemVrMWN5U3QwWnZodXlJcnVmdkFYU25UQWgwR29SdVV3Ck9mNmlNWUFJWkRNV1B0OEZ3T2RxMXE0Z1ozeFF3WnRmV3dIN05hR0V5YXJOajVlMmMrdFBkR3hnMUtoMG00RloKZG51RDA3TWxpOFlvcVFKVzVtZTE1OUlhMnhGdUlWRHF4bU51V0gzNEEwamFUbEYyYVZwU3dhMXVIajJXMisrSQpZZTBFRTJRNTNsZUh1SWNCa1M1N1Z0RmNlZ3BRTVFqYVVib1I1MDV6Slc2bEhSdGNNVGExL0dKeEtWLytEWkhjCndPeTdCOXcwUzJJR1AwdkhvSVdGQzgxZTRjMmxQbDUrYmo5QnJwSHYvK3R6K2Y3NENiUHpmTmxYRldDdWp5aWMKREM3TTJZNXMyc2xLRStraGhPUmoKLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQo=
+    server: https://34.73.120.166
+  name: gke_np-supplychain-srcoptimization_us-east1_shipping-service-nginx-east
+contexts:
+- context:
+    cluster: gke_np-supplychain-srcoptimization_us-central1_shipping-service-nginx-central
+    user: gke_np-supplychain-srcoptimization_us-central1_shipping-service-nginx-central
+  name: gke_np-supplychain-srcoptimization_us-central1_shipping-service-nginx-central
+- context:
+    cluster: gke_np-supplychain-srcoptimization_us-east1_shipping-service-nginx-east
+    user: gke_np-supplychain-srcoptimization_us-east1_shipping-service-nginx-east
+  name: gke_np-supplychain-srcoptimization_us-east1_shipping-service-nginx-east
+current-context: gke_np-supplychain-srcoptimization_us-east1_shipping-service-nginx-east
+kind: Config
+preferences: {}
+users:
+- name: gke_np-supplychain-srcoptimization_us-central1_shipping-service-nginx-central
+  user:
+    auth-provider:
+      config:
+        access-token: ya29.GlzZBj6ABOkerEJmE3fXZDa7Hpu6gXdYSCGXr0pPzq6GBa6lITBS0Mb-VrGLqVOI2zxGbRYPwnDUZk4gNp1cuqOM7Ylghc8V9J6b-Sj8EPpxDNiYUy4yr2j-EWkkuA
+        cmd-args: config config-helper --format=json
+        cmd-path: /home/joshua/google-cloud-sdk/bin/gcloud
+        expiry: 2019-03-27T22:10:00Z
+        expiry-key: '{.credential.token_expiry}'
+        token-key: '{.credential.access_token}'
+      name: gcp
+- name: gke_np-supplychain-srcoptimization_us-east1_shipping-service-nginx-east
+  user:
+    auth-provider:
+      config:
+        access-token: ya29.GlzZBj6ABOkerEJmE3fXZDa7Hpu6gXdYSCGXr0pPzq6GBa6lITBS0Mb-VrGLqVOI2zxGbRYPwnDUZk4gNp1cuqOM7Ylghc8V9J6b-Sj8EPpxDNiYUy4yr2j-EWkkuA
+        cmd-args: config config-helper --format=json
+        cmd-path: /home/joshua/google-cloud-sdk/bin/gcloud
+        expiry: 2019-03-27T22:10:00Z
+        expiry-key: '{.credential.token_expiry}'
+        token-key: '{.credential.access_token}'
+      name: gcp

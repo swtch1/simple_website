@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple-website
+  labels:
+    app: website
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: website
+  template:
+    metadata:
+      labels:
+        app: website
+    spec:
+      containers:
+      - name: site
+        image: gcr.io/np-supplychain-srcoptimization/simple_website:central
+        ports:
+        - containerPort: 80
+          protocol: TCP
+
