@@ -1,11 +1,9 @@
-tutum-hello-world
-==================
+# Simple Website
 
 Sample docker image to test docker deployments
 Created from original tutum repo for my own demonstrations.
 
-Usage
------
+## Usage
 
 To create the image `nieleyde/tutum-hello-world`, execute the following command on the tutum-hello-world folder:
 
@@ -16,8 +14,7 @@ You can now push your new image to the registry:
 	sudo docker push nieleyde/tutum-hello-world
 
 
-Running your Hello World docker image
--------------------------------------
+## Running your Hello World docker image
 
 Start your image:
 
@@ -32,4 +29,3 @@ It will print the allocated port (like 4751). Test your deployment:
 	curl http://localhost:4751/
 
 
-Hello world!
